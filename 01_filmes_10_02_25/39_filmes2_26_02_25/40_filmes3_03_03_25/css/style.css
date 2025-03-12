@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box-toy1 {
+    width: 100%;
+    background: rgb(40, 40, 40);
+    padding-bottom: 3rem;
+}
+
+.toyh,.shrekh {
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.boxk {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+}
+
+.budi {
+    border-radius: 30%;
+    width: 75%;
+}
+
+.budi-p {
+    font-size: 34px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+}
+
+.bazz {
+    width: 80%;
+    margin-left: 3rem;
+    border-radius: 20%;
+}
+
+.box3 {
+    width: 150%;
+}
+
+.bazz-p {
+    font-size: 34px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.box4 {
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.reks {
+    width: 90%;
+    margin-right: 3rem;
+    border-radius: 20%;
+}
+
+.box5 {
+    width: 100%;
+}
+
+.reks-p {
+    font-size: 34px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+.shrek-image {
+    width: 80%;
+    margin-right: 10rem;
+    border-radius: 20%;
+}
+
+.oslik-image {
+    width: 40%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.image-box {
+    width: 80%;
+}
+
+.karl-image {
+    width: 90%;
+    padding-right: 3rem;
+    border-radius: 80%;
+}
+
+.resel-image {
+    width: 90%;
+    border-radius: 80%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.bill-image {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
