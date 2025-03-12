@@ -1,0 +1,404 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background: rgb(34, 34, 34);
+}
+
+.box {
+    width: 50%;
+    background: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+nav {
+    width: 50%;
+    background: black;
+}
+
+.filmes-1 {
+    width: 7%;
+    padding: 0.4rem 1rem 0rem 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.filmesf {
+    color: white;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.n {
+    color: orange;
+    font-size: 3rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.marv {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 1.3rem;
+}
+
+.silka-2 {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.silka-2:active {
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:blue;
+}
+
+.name {
+    width: 100%;
+    background: rgb(22, 22, 22);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.film {
+    width: 34%;
+    padding-left: 24rem;
+}
+
+.meta {
+    width: 100%;
+    background: rgb(56, 56, 56);
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.paragraf1,.paragraf2 {
+    color: orange;
+    font-size: 2.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.meta-proekt,.real-proekt {
+    font-size: 1.3rem;
+    color: cyan;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.filmes-2 {
+    width: 100%;
+    height: 95rem;
+    background: rgb(39, 39, 39);
+    margin: 0 auto;
+    border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
+}
+
+.box-film {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90rem;
+}
+
+.box-toy {
+    width: 40%;
+    height: 40rem;
+    margin: 2rem 7rem 0rem 4rem;
+    
+}
+
+.box-shrek {
+    width: 40%;
+    height: 40rem;
+    margin-top: 2rem;
+    
+}
+
+.box-up {
+    width: 40%;
+    height: 40rem;
+    margin: 2rem 7rem 0rem 4rem;
+    
+}
+
+.box-dhek {
+    width: 40%;
+    height: 40rem;
+    margin-top: 2rem;
+    
+}
+
+.image-toy {
+    width: 90%;
+    margin-left: 2rem;
+}
+
+.image-shrek {
+    width: 75%;
+    margin-left: 4rem;
+}
+
+.image-up {
+    width: 70%;
+    margin-left: 3.5rem;
+}
+
+.image-dhek {
+    width: 60%;
+    margin-left: 4rem;
+}
+
+.toy {
+    text-align: center;
+    font-size: 170%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.bth-toy {
+    text-align: center;
+    font-size: 120%;
+    width: 70%;
+    height: 3rem;
+    background: orange;
+    border-radius: 20rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.bth-toy:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 122%;
+    color: rgb(132, 105, 56);
+    font-weight: bold;
+}
+
+.shrek {
+    text-align: center;
+    font-size: 170%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.bth-shrek {
+    text-align: center;
+    font-size: 120%;
+    width: 70%;
+    height: 3rem;
+    background: orange;
+    border-radius: 20rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.bth-shrek:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 122%;
+    color: rgb(132, 105, 56);
+    font-weight: bold;
+}
+
+.up {
+    text-align: center;
+    font-size: 170%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.bth-up {
+    text-align: center;
+    font-size: 120%;
+    width: 70%;
+    height: 3rem;
+    background: orange;
+    border-radius: 20rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.bth-up:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 122%;
+    color: rgb(132, 105, 56);
+    font-weight: bold;
+}
+
+.dhek {
+    text-align: center;
+    font-size: 170%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+}
+
+.bth-dhek {
+    text-align: center;
+    font-size: 120%;
+    width: 70%;
+    height: 3rem;
+    background: orange;
+    border-radius: 20rem;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+}
+
+.bth-dhek:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 122%;
+    color: rgb(132, 105, 56);
+    font-weight: bold;
+}
+
+h3 {
+    color: orange;
+    font-size: 2.6rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.profe {
+    width: 100%;
+    height: 80rem;
+    background: rgb(30, 30, 30);
+}
+
+h5 {
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    text-align: center;
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+.you {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 3rem 0rem 0rem 4rem;
+}
+
+.text-profe1 {
+    font-size: 32px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+.text-profe2 {
+    font-size: 36px;
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem 1rem 0rem 4rem;
+}
+
+.text-profe3,.text-profe4,.text-profe5,.text-profe6 {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding: 3rem 2rem 0rem 4rem;
+}
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background: rgb(26, 26, 26);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kontakt {
+    width: 7%;
+    margin: 1rem 2rem 0rem 2rem;
+}
+
+.nazar {
+    color: whitesmoke;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2rem 0rem 0rem 1rem;
+}
+
+.sait {
+    margin: 1.5rem 5rem 0rem 0rem;
+}
+
+.golovna {
+    font-size: 24px;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.golovna:hover {
+    font-size: 26px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numer1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numer2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.box1 {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box2 {
+    width: 100%;
+    height: 5rem;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+video {
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
